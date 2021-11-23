@@ -107,11 +107,11 @@
     NSString *alertMessage;
     if (self.scrollDirect == UICollectionViewScrollDirectionVertical) {
         self.scrollDirect = UICollectionViewScrollDirectionHorizontal;
-        alertMessage = @"閱讀方向改為橫向";
+        alertMessage = @"Reading orientation changed to landscape";
     }
     else {
         self.scrollDirect = UICollectionViewScrollDirectionVertical;
-        alertMessage = @"閱讀方向改為直向";
+        alertMessage = @"Reading direction changed to portrait";
     }
     [UIAlertController showAlertTitle:@"O3O" message:alertMessage defaultOptions:nil cancelOption:nil handler:nil].dismissAfter(0.75f);
     
@@ -127,14 +127,14 @@
 #pragma mark * 提示窗
 
 - (void)galleryNotAppear {
-    [UIAlertController showAlertTitle:@"O3O" message:@"這部作品好像不見囉" defaultOptions:nil cancelOption:@"好 O3O" handler:nil];
+    [UIAlertController showAlertTitle:@"O3O" message:@"I don’t see this work" defaultOptions:nil cancelOption:@"Ok O3O" handler:nil];
 }
 
 - (void)foundLatestPage {
     NSInteger userLatestPage = [self.info latestPage];
     if (userLatestPage > 1) {
         __weak GalleryViewController *weakSelf = self;
-        [UIAlertController showAlertTitle:@"O3O" message:@"您曾經閱讀過此作品" defaultOptions:@[ [NSString stringWithFormat:@"繼續從 %td 頁看起", userLatestPage] ] cancelOption:@"我要從頭看" handler: ^(NSInteger optionIndex) {
+        [UIAlertController showAlertTitle:@"O3O" message:@"You have read this work" defaultOptions:@[ [NSString stringWithFormat:@"Continue from page %td", userLatestPage] ] cancelOption:@"I want to read from the beginning" handler: ^(NSInteger optionIndex) {
             if (optionIndex) {
                 [weakSelf scrollToIndex:userLatestPage];
             }
@@ -191,16 +191,16 @@
 // 重新顯示 title
 - (void)refreshTitle {
     if (self.manager.heights.count == 0) {
-        self.title = @"===== 讀取中 =====";
+        self.title = @"===== Loading =====";
         return;
     }
     
-    NSMutableString *title = [NSMutableString stringWithFormat:@"當前:%@ ", @(self.userCurrentIndex)];
+    NSMutableString *title = [NSMutableString stringWithFormat:@"Current:%@ ", @(self.userCurrentIndex)];
     if (self.maxAllowScrollIndex != self.manager.imagePages.count) {
-        [title appendFormat:@"卡在:%@ ", @(self.maxAllowScrollIndex + 1)];
+        [title appendFormat:@"Stuck at:%@ ", @(self.maxAllowScrollIndex + 1)];
     }
     else {
-        [title appendFormat:@"總共:%@ ", self.info.filecount];
+        [title appendFormat:@"Total:%@ ", self.info.filecount];
     }
     self.title = title;
 }
@@ -242,7 +242,7 @@
 
 - (void)deleteThis {
     __weak GalleryViewController *weakSelf = self;
-    [UIAlertController showAlertTitle:@"O3O" message:@"我們現在這部作品囉!" defaultOptions:@[ @"好 O3Ob" ] cancelOption:@"先不要好了 OwO\"" handler: ^(NSInteger optionIndex) {
+    [UIAlertController showAlertTitle:@"O3O" message:@"We have this work now!" defaultOptions:@[ @"Ok O3Ob" ] cancelOption:@"Don't do it yet OwO\"" handler: ^(NSInteger optionIndex) {
         if (!weakSelf) {
             return;
         }

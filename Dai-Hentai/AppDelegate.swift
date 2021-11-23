@@ -54,7 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // 需要上鎖的話, window 則是 hidden 的
         window?.isHidden = true
-        AuthHelper.check(for: "使用這個 App 需要先解鎖呦") { [weak self] (pass) in
+        AuthHelper.check(for: "You need to unlock this app first!") { [weak self] (pass) in
             guard let self = self else {
                 return
             }

@@ -37,7 +37,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection headerTitle="App 狀態" id="Dfg-vD-Cux">
+                            <tableViewSection headerTitle="APP status" id="Dfg-vD-Cux">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EhListCheckCell" textLabel="mh4-n1-VoS" detailTextLabel="3Vi-Tb-1cu" style="IBUITableViewCellStyleValue1" id="LHB-qP-Ndb">
                                         <rect key="frame" x="0.0" y="55.333332061767578" width="375" height="44"/>
@@ -46,14 +46,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Eh 列表測試 (點擊開啟網頁)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mh4-n1-VoS">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Eh List Test (Click to open the page)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mh4-n1-VoS">
                                                     <rect key="frame" x="16" y="11.999999999999998" width="214" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="測試中..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Vi-Tb-1cu">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Testing..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Vi-Tb-1cu">
                                                     <rect key="frame" x="293" y="11.999999999999998" width="66" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -70,14 +70,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Eh API 使用測試" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sjh-ZM-1Tg">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Eh API Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sjh-ZM-1Tg">
                                                     <rect key="frame" x="15.999999999999993" y="11.999999999999998" width="123.33333333333333" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="測試中..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RFx-P0-FAM">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Testing..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RFx-P0-FAM">
                                                     <rect key="frame" x="293" y="11.999999999999998" width="66" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -94,14 +94,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Ex 列表測試 (點擊開啟網頁)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gvp-yf-MFi">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Ex List test (Click to open the page)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gvp-yf-MFi">
                                                     <rect key="frame" x="16" y="11.999999999999998" width="212.66666666666666" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="測試中..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eR4-5M-gMG">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Testing..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eR4-5M-gMG">
                                                     <rect key="frame" x="293" y="11.999999999999998" width="66" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -118,14 +118,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Ex API 使用測試" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cRh-85-ykt">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Ex API Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cRh-85-ykt">
                                                     <rect key="frame" x="15.999999999999993" y="11.999999999999998" width="122.33333333333333" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="測試中..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Efv-2M-uCd">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Testing..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Efv-2M-uCd">
                                                     <rect key="frame" x="293" y="11.999999999999998" width="66" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -142,7 +142,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="ExKey 登錄" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o9y-os-QxR">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="ExKey Log in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o9y-os-QxR">
                                                     <rect key="frame" x="16" y="0.0" width="343" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -159,7 +159,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ex 登入整個失敗 還是只有熊貓 點我登出" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2I-C9-XGB">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ex The login failed or only Panda click to Log Out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2I-C9-XGB">
                                                     <rect key="frame" x="33" y="11.666666666666664" width="309" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="k45-Kz-ZcX"/>
@@ -178,7 +178,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="用量" id="YW9-An-RFl">
+                            <tableViewSection headerTitle="Usage" id="YW9-An-RFl">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HistorySizeCell" textLabel="k3f-9d-KdJ" detailTextLabel="i0A-cz-KPL" style="IBUITableViewCellStyleValue1" id="rA3-2p-aSh">
                                         <rect key="frame" x="0.0" y="375.33333206176758" width="375" height="44"/>
@@ -187,14 +187,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="歷史" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k3f-9d-KdJ">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k3f-9d-KdJ">
                                                     <rect key="frame" x="15.999999999999996" y="11.999999999999998" width="34.666666666666664" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="計算中..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i0A-cz-KPL">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Calculating..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i0A-cz-KPL">
                                                     <rect key="frame" x="293" y="11.999999999999998" width="66" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -211,14 +211,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="下載" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0CJ-x2-TNl">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Downloads" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0CJ-x2-TNl">
                                                     <rect key="frame" x="15.999999999999996" y="11.999999999999998" width="34.666666666666664" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="計算中..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p6l-zm-oCo">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Calculating..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p6l-zm-oCo">
                                                     <rect key="frame" x="293" y="11.999999999999998" width="66" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -230,7 +230,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="觀看習慣" id="5bE-DS-dhU">
+                            <tableViewSection headerTitle="Viewing habits" id="5bE-DS-dhU">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ScrollDirectionCell" textLabel="eqa-Ue-yhb" detailTextLabel="c1R-X7-l6v" style="IBUITableViewCellStyleValue1" id="BvQ-hb-GJR">
                                         <rect key="frame" x="0.0" y="519.33333206176758" width="375" height="44"/>
@@ -239,14 +239,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="滑動方向切換" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eqa-Ue-yhb">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Scroll direction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eqa-Ue-yhb">
                                                     <rect key="frame" x="16" y="11.999999999999998" width="104" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="讀取中..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c1R-X7-l6v">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Loading..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c1R-X7-l6v">
                                                     <rect key="frame" x="293" y="11.999999999999998" width="66" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -258,7 +258,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="隱私設定" id="FhW-tE-SAa">
+                            <tableViewSection headerTitle="Privacy settings" id="FhW-tE-SAa">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LockThisAppCell" textLabel="C0U-US-FLf" detailTextLabel="kNQ-rS-KxB" style="IBUITableViewCellStyleValue1" id="e7h-ZX-gcy">
                                         <rect key="frame" x="0.0" y="619.33333206176758" width="375" height="44"/>
@@ -267,14 +267,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="App 上鎖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C0U-US-FLf">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="App Lock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C0U-US-FLf">
                                                     <rect key="frame" x="16" y="11.999999999999998" width="70.333333333333329" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="讀取中..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kNQ-rS-KxB">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Loading..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kNQ-rS-KxB">
                                                     <rect key="frame" x="293" y="11.999999999999998" width="66" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -288,7 +288,7 @@
                             </tableViewSection>
                         </sections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="設定" id="fEv-YZ-L6B"/>
+                    <navigationItem key="navigationItem" title="Configuration" id="fEv-YZ-L6B"/>
                     <connections>
                         <outlet property="downloadSizeLabel" destination="p6l-zm-oCo" id="OFh-68-Qei"/>
                         <outlet property="ehAPICheckLabel" destination="RFx-P0-FAM" id="CuV-oa-fby"/>
@@ -341,7 +341,7 @@
         <!--下載-->
         <scene sceneID="BfE-7G-27V">
             <objects>
-                <viewController title="下載" id="7O4-IR-1ix" customClass="DownloadedsViewController" sceneMemberID="viewController">
+                <viewController title="Downloads" id="7O4-IR-1ix" customClass="DownloadedsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Ti-4N-CDh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -477,7 +477,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Jw4-Xp-Hlg"/>
                     </view>
-                    <navigationItem key="navigationItem" title="下載" id="veQ-BN-uHB"/>
+                    <navigationItem key="navigationItem" title="Downloads" id="veQ-BN-uHB"/>
                     <connections>
                         <outlet property="collectionView" destination="aQf-Ua-g2u" id="Ab2-6S-wi4"/>
                         <segue destination="ePr-gK-ENO" kind="show" identifier="PushToGallery" id="ZPJ-2t-pAf"/>
@@ -660,7 +660,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="p2U-yp-HyG"/>
                     </view>
-                    <navigationItem key="navigationItem" title="列表" id="9hQ-UG-t3A">
+                    <navigationItem key="navigationItem" title="List" id="9hQ-UG-t3A">
                         <barButtonItem key="leftBarButtonItem" title="Ex" id="Moc-cJ-UKW">
                             <connections>
                                 <action selector="loginToExAction:" destination="bGt-cB-9tU" id="UVU-1O-JJf"/>
@@ -822,7 +822,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="M2L-ad-Fbm"/>
                     </view>
-                    <navigationItem key="navigationItem" title="歷史" id="862-Pc-VDZ">
+                    <navigationItem key="navigationItem" title="History" id="862-Pc-VDZ">
                         <barButtonItem key="rightBarButtonItem" systemItem="trash" id="1HV-bc-6an">
                             <connections>
                                 <action selector="deleteAllHistoriesAction:" destination="pF1-Ho-r1p" id="cuo-nd-YtL"/>
@@ -841,7 +841,7 @@
         <!--相關字詞-->
         <scene sceneID="BTS-4N-31f">
             <objects>
-                <viewController title="相關字詞" id="h49-DX-5a9" customClass="RelatedViewController" sceneMemberID="viewController">
+                <viewController title="Related words" id="h49-DX-5a9" customClass="RelatedViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nse-mW-On9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -883,8 +883,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XOT-zH-5h6"/>
                     </view>
-                    <navigationItem key="navigationItem" title="相關字詞" id="wWX-Z8-YKg">
-                        <barButtonItem key="rightBarButtonItem" title="好" id="o5N-5J-mGx">
+                    <navigationItem key="navigationItem" title="Related words" id="wWX-Z8-YKg">
+                        <barButtonItem key="rightBarButtonItem" title="Ok" id="o5N-5J-mGx">
                             <connections>
                                 <segue destination="bc8-Pt-W7K" kind="unwind" identifier="PopFromRelated" unwindAction="unwindFromSearch:" id="kDv-ti-bj0"/>
                             </connections>
@@ -964,11 +964,11 @@
                                                 <constraint firstAttribute="height" constant="28" id="0Hi-Be-UbZ"/>
                                             </constraints>
                                             <segments>
-                                                <segment title="不限"/>
-                                                <segment title="2星以上"/>
-                                                <segment title="3星以上"/>
-                                                <segment title="4星以上"/>
-                                                <segment title="滿星"/>
+                                                <segment title="Any"/>
+                                                <segment title="2 Stars"/>
+                                                <segment title="3 Stars"/>
+                                                <segment title="4 Stars"/>
+                                                <segment title="Full Star"/>
                                             </segments>
                                             <connections>
                                                 <action selector="onRatingChangeAction:" destination="52F-5m-aSZ" eventType="valueChanged" id="dVt-VJ-5nu"/>
@@ -1009,8 +1009,8 @@
                             <outlet property="delegate" destination="bLr-Ua-73U" id="hyT-va-tib"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="搜尋" id="dpT-vd-fTM">
-                        <barButtonItem key="rightBarButtonItem" title="好" id="owM-5P-MQu">
+                    <navigationItem key="navigationItem" title="Search" id="dpT-vd-fTM">
+                        <barButtonItem key="rightBarButtonItem" title="Ok" id="owM-5P-MQu">
                             <connections>
                                 <segue destination="Pwf-Ts-FG0" kind="unwind" identifier="PopFromSearch" unwindAction="unwindFromSearch:" id="97R-XS-mGc"/>
                             </connections>
@@ -1078,7 +1078,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QmG-6T-k3F"/>
                     </view>
-                    <navigationItem key="navigationItem" title="畫廊" id="fse-z3-OS9"/>
+                    <navigationItem key="navigationItem" title="Gallery" id="fse-z3-OS9"/>
                     <connections>
                         <outlet property="collectionView" destination="lH0-qQ-rWK" id="jiH-Qi-MeW"/>
                     </connections>

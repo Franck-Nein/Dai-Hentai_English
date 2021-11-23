@@ -61,7 +61,7 @@
         cell.messageLabel.text = self.deletingMessage;
     }
     else {
-        cell.messageLabel.text = @"你還沒有看過任何作品呦 O3O";
+        cell.messageLabel.text = @"You haven't seen any works yet O3O";
     }
 }
 
@@ -83,14 +83,14 @@
         self.isLoading = YES;
         
         __weak HistoriesViewController *weakSelf = self;
-        [UIAlertController showAlertTitle:@"O3O" message:@"我們現在要刪除所有觀看紀錄囉!" defaultOptions:@[ @"好 O3Ob" ] cancelOption:@"先不要好了 OwO\"" handler: ^(NSInteger optionIndex) {
+        [UIAlertController showAlertTitle:@"O3O" message:@"Delete all watch history!" defaultOptions:@[ @"Yes O3Ob" ] cancelOption:@"Don't do it OwO\"" handler: ^(NSInteger optionIndex) {
             if (optionIndex) {
-                weakSelf.deletingMessage = @"作品刪除中...";
+                weakSelf.deletingMessage = @"Deleting works...";
                 [weakSelf.galleries removeAllObjects];
                 [weakSelf.collectionView reloadData];
                 
                 [DBGallery deleteAllHistories: ^(NSInteger total, NSInteger index, HentaiInfo *info) {
-                    weakSelf.deletingMessage = [NSString stringWithFormat:@"作品刪除中 ( %td / %td )", index, total];
+                    weakSelf.deletingMessage = [NSString stringWithFormat:@"Deleting works ( %td / %td )", index, total];
                     [weakSelf.collectionView reloadData];
                     [[FilesManager documentFolder] rd:[info folder]];
                 } onFinish: ^(BOOL successed) {

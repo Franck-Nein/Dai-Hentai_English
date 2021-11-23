@@ -16,7 +16,7 @@
 - (void)onLockThisAppPress {
     if (self.info.isLockThisApp.boolValue) {
         @weakify(self);
-        [AuthHelper checkFor:@"驗證身份以解除鎖定" completion: ^(BOOL pass) {
+        [AuthHelper checkFor:@"Verify identity to unlock " completion: ^(BOOL pass) {
             @strongify(self);
             
             if (pass) {
@@ -34,7 +34,7 @@
     
     // 無上鎖時, 跟用戶確認要上鎖這件事
     @weakify(self);
-    [UIAlertController showAlertTitle:@"確定要上鎖嗎?" message:@"未來只可以透過指紋或是臉來解鎖, 密碼無法!" defaultOptions:@[ @"OK, 鎖8" ] cancelOption:@"O口O 真假, 我考慮一下" handler: ^(NSInteger optionIndex) {
+    [UIAlertController showAlertTitle:@"Are you sure you want to lock it?" message:@"In the future, only fingerprints or faces can be used to unlock, passwords can not!" defaultOptions:@[ @"OK" ] cancelOption:@"O口O Yes or No, let me consider " handler: ^(NSInteger optionIndex) {
         if (!optionIndex) {
             return;
         }
@@ -50,10 +50,10 @@
 
 - (void)displayLockThisAppText {
     if (self.info.isLockThisApp.boolValue) {
-        self.lockThisAppLabel.text = @"目前是上鎖狀態";
+        self.lockThisAppLabel.text = @"Currently locked";
     }
     else {
-        self.lockThisAppLabel.text = @"目前是沒有上鎖狀態";
+        self.lockThisAppLabel.text = @"Currently unlocked";
     }
 }
 

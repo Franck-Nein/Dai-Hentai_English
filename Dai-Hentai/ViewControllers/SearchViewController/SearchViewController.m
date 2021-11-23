@@ -46,22 +46,22 @@ typedef enum {
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     switch (section) {
         case 0:
-            return @"手動輸入關鍵字";
+            return @"Manually input keywords.";
             
         case 1:
-            return @"只搜尋固定語言";
+            return @"Search only fixed languages";
             
         case 2:
-            return @"從近期標題選取";
+            return @"Select from recent keywords";
             
         case 3:
-            return @"從近期 Tag 選取";
+            return @"Select from recent Tag";
             
         case 4:
-            return @"評分要求";
+            return @"Score requirements ";
             
         default:
-            return @"作品類別";
+            return @"Category";
     }
 }
 

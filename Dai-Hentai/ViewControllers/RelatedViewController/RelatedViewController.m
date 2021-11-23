@@ -89,10 +89,10 @@ typedef enum {
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     switch (self.sections[section].integerValue) {
         case SectionTypeEng:
-            return @"英文名稱切碎";
+            return @"English name chopped up";
             
         case SectionTypeJpn:
-            return @"日文名稱切碎";
+            return @"Japanese name chopped up";
             
         case SectionTypeTag:
             return @"Tags";

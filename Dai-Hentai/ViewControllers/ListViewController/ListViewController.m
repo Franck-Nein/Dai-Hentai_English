@@ -117,11 +117,11 @@
     cell.activityView.hidden = !isLoading;
     if (isLoading) {
         [cell.activityView startAnimating];
-        cell.messageLabel.text = @"列表載入中...";
+        cell.messageLabel.text = @"List loading...";
     }
     else {
         [cell.activityView stopAnimating];
-        cell.messageLabel.text = @"找不到相關作品呦";
+        cell.messageLabel.text = @"No related works found";
     }
 }
 
@@ -161,7 +161,7 @@
     
     __weak ListViewController *weakSelf = self;
     NSMutableArray<NSDictionary<NSString *, void(^)(void)> *> *behaviors = [NSMutableArray array];
-    [behaviors addObject:@{ @"我要現在看": ^(void) {
+    [behaviors addObject:@{ @"I want to read.": ^(void) {
         if (!weakSelf) {
             return;
         }
@@ -170,7 +170,7 @@
     } }];
     
     if (![info isDownloaded]) {
-        [behaviors addObject:@{ @"我要下載": ^(void) {
+        [behaviors addObject:@{ @"I want to download": ^(void) {
             if (!weakSelf) {
                 return;
             }
@@ -183,7 +183,7 @@
         } }];
     }
     
-    [behaviors addObject:@{ @"用相關字詞搜尋": ^(void) {
+    [behaviors addObject:@{ @"Search using relevant words": ^(void) {
         if (!weakSelf) {
             return;
         }
@@ -204,7 +204,7 @@
         [options addObject:behaviors[index].allKeys.firstObject];
     }
     
-    [UIAlertController showAlertTitle:@"O3O" message:[NSString stringWithFormat:@"這部作品有 %@ 頁呦", info.filecount] defaultOptions:options cancelOption:@"都不要 O3O" handler: ^(NSInteger optionIndex) {
+    [UIAlertController showAlertTitle:@"O3O" message:[NSString stringWithFormat:@"This work has %@ pages", info.filecount] defaultOptions:options cancelOption:@"Neither" handler: ^(NSInteger optionIndex) {
         if (!weakSelf) {
             return;
         }

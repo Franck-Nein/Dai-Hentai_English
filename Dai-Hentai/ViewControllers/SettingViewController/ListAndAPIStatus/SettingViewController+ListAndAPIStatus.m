@@ -25,20 +25,20 @@ typedef enum {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         objc_setAssociatedObject(self, _cmd, @{ @(HentaiParserStatusParseFail): @{ @"color": [UIColor redColor],
-                                                                                   @"list": @"解析失敗",
-                                                                                   @"api": @"不知道" },
+                                                                                   @"list": @"Parsing failed",
+                                                                                   @"api": @"Dont know" },
                                                 @(HentaiParserStatusNetworkFail): @{ @"color": [UIColor redColor],
-                                                                                   @"list": @"網路錯誤",
-                                                                                   @"api": @"網路錯誤" },
+                                                                                   @"list": @"Network error",
+                                                                                   @"api": @"Network error" },
                                                 @(HentaiParserStatusSuccess): @{ @"color": [UIColor greenColor],
-                                                                                 @"list": @"成功",
-                                                                                 @"api": @"成功" },
+                                                                                 @"list": @"Success",
+                                                                                 @"api": @"Success" },
                                                 @(LocalStatusTypeInit): @{ @"color": [UIColor blackColor],
-                                                                           @"list": @"測試中...",
-                                                                           @"api": @"測試中..." },
+                                                                           @"list": @"Testing...",
+                                                                           @"api": @"Testing..." },
                                                 @(LocalStatusTypeExNotLogin): @{ @"color": [UIColor redColor],
-                                                                               @"list": @"未登入 EX",
-                                                                               @"api": @"未登入 EX" }
+                                                                               @"list": @"Not logged in EX ",
+                                                                               @"api": @"Not logged in EX " }
                                                }, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     });
     return objc_getAssociatedObject(self, _cmd);

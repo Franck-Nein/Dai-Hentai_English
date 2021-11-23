@@ -1,82 +1,82 @@
-# Dai-Hentai 3.0
+# Dai-Hentai 3.0 English
+## Cheap Google Translate Edition 
+Go to releases for ipa.
+## Overview
+This project is an app that makes it easy for iOS devices to read, use, and collect the content of the e / ex hentai website. Since the content of this website is mostly viewed by adults, if you don't like the content, please don't use >x<, thank you.
 
-## 總覽
-這個專案是一個讓 iOS 裝置方便閱讀, 使用, 收藏 e / ex hentai 網站內容的 App, 由於該網站的內容多半是成人觀看, 如果不喜歡這些內容的話, 請勿使用 >x<, 感恩
+Of course, regardless of the content, any questions about the code or use are welcome to suggest >w< 
 
-當然, 撇開內容的部分不談, 程式碼的部分或是使用上有任何問題, 都歡迎提出指教 >w<
-
-下面的縮圖點擊後可以導向 youtube 觀看大致上功能使用的影片
+After clicking on the thumbnails below, you can lead to YouTube to watch the video of the general function. 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=DqkIxhpzP9s
 " target="_blank"><img src="http://img.youtube.com/vi/DqkIxhpzP9s/0.jpg" 
 alt="newHentai" width="240" height="180" border="10" /></a>
 
-整體的使用體驗應該會比 2.x 來的穩定跟快速, 也加上了上鎖的功能, 讓大家在使用上可以更安心一些 =w=
+The overall user experience should be more stable and faster than 2.x, and the lock function is also added, so that everyone can be more at ease in use =w= 
 
-## Tag 中文轉換
-感謝隔壁的朋友有整理好的 tag 可以查找了, 所以這邊的轉換參考內容都是從 [https://github.com/Mapaler/EhTagTranslator](https://github.com/Mapaler/EhTagTranslator) 來的, 深表感謝
+## Tag Chinese conversion(Probably not relevant to you)
+Thanks to the friends next door to have organized tags that can be found, so the conversion reference content here is from https://github.com/Mapaler/EhTagTranslator , thank you very much 
 
-## 原生 Xcode 直接安裝方法
-1. 獲取專案（兩種方法）
+## Native Xcode direct installation method
+1. Get the project (two methods)
 
- - 使用 `Download ZIP` 或 `Release` 下載專案打包並解壓縮；
- - 通過 `$ git clone https://github.com/DaidoujiChen/Dai-Hentai.git` 複製專案數據庫；
+ - Use Download ZIP or Release and unzip;
+ - Clone the project `$ git clone https://github.com/Franck-Nein/Dai-Hentai_English.git` Copy the project database；
  
-2. 重建（還原） `Pods`
+2. Rebuild (restore) `Pods`
   ![](https://s3-ap-northeast-1.amazonaws.com/daidoujiminecraft/Daidouji/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7+2016-12-07+%E4%B8%8A%E5%8D%8810.27.08.png)
 
  ```bash
- $ cd Dai-Hentai # 進入專案目錄
- $ pod install # 不要使用 pod update
+ $ cd Dai-Hentai # # Enter the project directory
+ $ pod install # Do not use pod update
 ```
 
- *如果無法使用 `pod` 指令, 請先安裝 [CocoaPods](https://cocoapods.org/)*
+ *If `pod` is not available, please install [CocoaPods](https://cocoapods.org/)*
 
  ```bash
  sudo gem install cocoapods
 ```
-3. 開啓專案
-  **請選擇 `e-Hentai.xcworkspace` 而非 `e-Hentai.xcodeproj` 呦**
+3. Open the project<br>
+  **Please select `e-Hentai.xcworkspace` Instead of `e-Hentai.xcodeproj`**
 
   ![](https://s3-ap-northeast-1.amazonaws.com/daidoujiminecraft/Daidouji/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7+2016-10-22+%E4%B8%8B%E5%8D%8810.26.35.png)
   
-## Windows / Linux 不需 JB 安裝方法
-後來 [VVVVictorJ](https://github.com/VVVVictorJ) 提出 Cydia Impactor 已經沒有辦法安裝囉, 可以使用 [shinrenpan](https://github.com/shinrenpan) 提到的 [AltStore](https://altstore.io/) 試試
+## Windows / Linux no JB method  
+Later [VVVVictorJ](https://github.com/VVVVictorJ) suggested that Cydia Impactor has no way to install it, you can use the [AltStore](https://altstore.io/), suggested by [shinrenpan](https://github.com/shinrenpan)
 
-**需要注意的一點, 這種安裝方式只有七天的賞味期喔, 需要在期限內再裝一次才行**
+**One thing to note, this installation method has a seven-day limit period, and needs to be re-installed within the deadline.**
 
-## 支援
-- iOS9.0 以上
+## Support
+- iOS9.0 and above
 - iPhone / iPad
 
-## 最新測試版本試玩
+## Try the latest beta version
 
-[點我導向 appetize](https://appetize.io/embed/qk23vcyrmbtecy7n12h6118wa4?device=iphone7&scale=100&orientation=portrait&osVersion=10.0&deviceColor=white)
+[Click me to appetize](https://appetize.io/embed/qk23vcyrmbtecy7n12h6118wa4?device=iphone7&scale=100&orientation=portrait&osVersion=10.0&deviceColor=white)
 
-但是由於是免費帳號, 所以試玩一個月只有 100 分鐘的額度, 付費每一分鐘 0.05 鎂, 成本實在過高, 有玩到的人只能說有拜拜, 沒有玩到的人可以直接用下面的 IPA 檔案...如果能的話啦 O3Ob
+However, because it is a free account, there is only 100 minutes of trial for a month, and the cost is 0.05 mg per minute. The cost is too high. Those who have played can only say goodbye, and those who have not played can directly use the following IPA file...if possible O3Ob 
+## The latest test version IPA
 
-## 最新測試版本 IPA
-
-因為懶惰所以懶得每次一直手動發布版本, 所以用了一個自動生產 ipa 的服務, 會在每當有新的 commit 時運作
+Because of laziness, I am too lazy to manually release the version every time, so I use a service that automatically produces ipa, which will operate whenever there is a new commit.
 
 ![](https://app.bitrise.io/app/446db4b9b316a724.svg?token=I0YMFQ8S5i30cN95ZVgvhw)
 
-^^^^^^^^^^^^^ 上面這串文字為 `Bitrise Passing` 時, 可以取得最新的版本
+^^^^^^^^^^^^^ The above string of text is `Bitrise Passing` When, you can get the latest version
 
-版本的識別由兩個部分組合而成
-  * [版本號](https://github.com/DaidoujiChen/Dai-Hentai/blob/3.0_master/Dai-Hentai/Info.plist#L18)
-  * [Build號](https://github.com/DaidoujiChen/Dai-Hentai/blob/3.0_master/Dai-Hentai/Info.plist#L20)
+The identification of the version consists of a combination of two parts 
+  * [Version number](https://github.com/DaidoujiChen/Dai-Hentai/blob/3.0_master/Dai-Hentai.xcodeproj/project.pbxproj#L1072)
+  * [Build number](https://github.com/DaidoujiChen/Dai-Hentai/blob/3.0_master/Dai-Hentai.xcodeproj/project.pbxproj#L1067)
 
-可以組成如下的網址
+Can form the following URL 
 
 ```
-https://s3-ap-northeast-1.amazonaws.com/dai-hentai-ipa/bitrise/{版本號}_{Build號}/Dai-Hentai.ipa
+https://s3-ap-northeast-1.amazonaws.com/dai-hentai-ipa/bitrise/{Version number}_{Build number}/Dai-Hentai.ipa
 ```
 
-以當前編譯文件時的範例網址為 `https://s3-ap-northeast-1.amazonaws.com/dai-hentai-ipa/bitrise/1.0_201703090649/Dai-Hentai.ipa`
+Take the example URL of the current compiled file as `https://s3-ap-northeast-1.amazonaws.com/dai-hentai-ipa/bitrise/3.10_20191225/Dai-Hentai.ipa`
 
-## 1 鎂捐獻箱
+## 1 Magnesium donation box(Donate, the translation made me laugh, so I will keep it)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=N86FK92G3V4BS)
 <img alt="" border="0" src="https://www.paypalobjects.com/zh_TW/i/scr/pixel.gif" width="1" height="1">
 
-[捐獻紀錄表](https://docs.google.com/spreadsheets/d/17eY6Hi2Ol-tbb3pL11yRoAg6SeNKa-plj4VJvSuPQY8/edit#gid=0)
+[Donation history sheet ](https://docs.google.com/spreadsheets/d/17eY6Hi2Ol-tbb3pL11yRoAg6SeNKa-plj4VJvSuPQY8/edit#gid=0)
